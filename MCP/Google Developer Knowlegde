@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "google-developer-knowledge": {
+      "headers": {
+        "X-Goog-Api-Key": "Your API Key"
+      },
+      "serverUrl": "https://developerknowledge.googleapis.com/mcp"
+    },
+    "firecrawl-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "firecrawl-mcp"
+      ],
+      "env": {
+        "FIRECRAWL_API_KEY": "Your API Key"
+      }
+    }
+  }
+}
